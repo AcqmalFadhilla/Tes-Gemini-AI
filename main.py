@@ -5,7 +5,7 @@ from IPython.display import display
 
 def model_gemini(name):
     # setup api model
-    genai.configure(api_key='AIzaSyAWX5_0biZQ8DkS7vYulu1jWXI6E-Sm_qY')
+    genai.configure(api_key=API KEY)
 
     for m in genai.list_models():
         if 'generateContent' in m.supported_generation_methods:
